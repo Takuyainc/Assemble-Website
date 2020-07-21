@@ -1,0 +1,1081 @@
+body
+{
+	background  : #1d1d1b;
+	font-family : 'Ubuntu', sans-serif;
+	color       : #ffffff;
+}
+
+/* ALLGEMEIN ********************************************************* */
+.section-h1
+{
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 800;
+	text-transform : uppercase;
+	color          : #ffffff;
+	padding        : 0;
+	text-align     : center;
+}
+
+.section-h2
+{
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 500;
+	text-transform : uppercase;
+	color          : #ffffff;
+	padding        : 0;
+	text-align     : center;
+	line-height    : 100%;
+	letter-spacing : 3px;
+}
+
+.h2-style-1
+{
+	color          : #ffffff;
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 700;
+	text-transform : uppercase;
+	line-height    : 100%;
+	margin         : 0;
+}
+
+.h2-style-2
+{
+	color          : #ffffff;
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 700;
+	text-transform : uppercase;
+	line-height    : 100%;
+	margin         : 0;
+}
+
+.h3-style-1
+{
+	color          : #e7c869 !important;
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 700;
+	text-transform : uppercase;
+	line-height    : 100%;
+	margin         : 0;
+}
+
+a:link, a:visited, a:active
+{
+	text-decoration    : none;
+	color              : #e8c962;
+	-webkit-transition : color 0.2s ease;
+	-moz-transition    : color 0.2s ease;
+	-o-transition      : color 0.2s ease;
+	transition         : color 0.2s ease;
+}
+
+a:hover
+{
+	color : #c29f2b;
+}
+
+#headup-news, #headup-games, #headup-aboutus, #headup-social, #headup-contact
+{
+	position : relative;
+	height   : 0;
+	overflow : hidden;
+}
+
+/* HEADER ************************************************************ */
+#mainheader
+{
+	background : #ffffff;
+	position   : relative;
+}
+
+#header-logo
+{
+	background              : url(../img/Headup-Logo-Big.png) no-repeat;
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+	margin                  : 0 auto 0 auto;
+	position                : relative;
+}
+
+#header-icons
+{
+	position : absolute;
+}
+
+.header-icon
+{
+	float   : left;
+	display : block;
+}
+
+.icon-gamefairy
+{
+	background              : #243a41 url(../img/social-gamefairy.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-instagram
+{
+	background              : #daa235 url(../img/social-instagram.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-twitter
+{
+	background              : #4099ff url(../img/social-twitter.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-youtube
+{
+	background              : #cd332d url(../img/social-youtube.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-facebook
+{
+	background              : #3b5998 url(../img/social-facebook.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-discord
+{
+	background              : #8c9eff url(../img/social-discord.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-twitch
+{
+	background              : #6441a5 url(../img/social-twitch.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+.icon-mixer
+{
+	background              : #17254e url(../img/social-mixer.png);
+	-webkit-background-size : contain;
+	-moz-background-size    : contain;
+	-o-background-size      : contain;
+	background-size         : contain;
+}
+
+#lg-share, #lg-actual-size, #lg-zoom-out, #lg-zoom-in, .lg-fullscreen, .lg-autoplay-button, #lg-download
+{
+	display : none;
+}
+
+/* MAINNAV *********************************************************** */
+#mainnav
+{
+	background     : #171716;
+	width          : 100%;
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 800;
+	text-transform : uppercase;
+	position       : absolute;
+	z-index        : 1030;
+}
+
+#mainnav.fixed-nav
+{
+	position : fixed;
+	top      : 0;
+}
+
+#mainnav-logo
+{
+	position           : absolute;
+	-webkit-transition : left 0.2s ease;
+	-moz-transition    : left 0.2s ease;
+	-o-transition      : left 0.2s ease;
+	transition         : left 0.2s ease;
+	z-index            : 100000;
+	cursor             : pointer;
+}
+
+#mainnav-logo img
+{
+	width : 100%;
+}
+
+#mainnav ul
+{
+	list-style : none;
+	text-align : center;
+	position   : relative;
+	margin     : 0;
+	padding    : 0;
+}
+
+#mainnav ul li
+{
+	display : inline-block;
+}
+
+#mainnav li a:link, #mainnav li a:active, #mainnav li a:visited
+{
+	color              : #ffffff;
+	text-decoration    : none;
+	-webkit-transition : color 0.2s ease;
+	-moz-transition    : color 0.2s ease;
+	-o-transition      : color 0.2s ease;
+	transition         : color 0.2s ease;
+}
+
+#mainnav li a:hover, #mainnav li.current a:link, #mainnav li.current a:active, #mainnav li.current a:visited
+{
+	text-decoration : none;
+	color           : #e8c962;
+}
+
+#mainnav #mainnav-newsletter
+{
+	font-family        : acumin-pro-condensed, sans-serif;
+	font-style         : normal;
+	font-weight        : 600 !important;
+	display            : inline-block;
+	background-color   : #292928;
+	border-radius      : 4px;
+	position           : absolute;
+	padding            : 4px 9px;
+	color              : #e8c962;
+	-webkit-transition : all 0.2s ease;
+	-moz-transition    : all 0.2s ease;
+	-o-transition      : all 0.2s ease;
+	transition         : all 0.2s ease;
+	text-decoration    : none;
+}
+
+#mainnav #mainnav-newsletter:hover
+{
+	background-color : #e8c962;
+	color            : #292928;
+}
+
+#mainnav #mainnav-newsletter span
+{
+	display : none;
+}
+
+/* NEWS ************************************************************** */
+#news
+{
+	position : relative;
+}
+
+#news-container
+{
+	position : relative;
+	z-index  : 10;
+}
+
+#around-news
+{
+	position : relative;
+}
+
+#full-news-box
+{
+	display : none;
+}
+
+.headline-spacer
+{
+	display : block;
+	height  : 12px;
+}
+
+#news-bg-box
+{
+	width                   : 100%;
+	height                  : 100%;
+	position                : absolute;
+	left                    : 0;
+	top                     : 0;
+	z-index                 : 1;
+	background              : #1d1d1b url("../img/news-bg.jpg") no-repeat bottom center;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+.news-teaser-img
+{
+	background-color : #292928;
+	cursor           : pointer;
+}
+
+.news-teaser p
+{
+	color       : #f5f5f5;
+	line-height : 120%;
+	font-weight : 300;
+	margin      : 0;
+	padding     : 0;
+}
+
+span.news-date
+{
+	color : #a7a49b;
+}
+
+.full-news .news-teaser-img
+{
+	float    : left;
+	position : relative;
+}
+
+.full-news
+{
+	color       : #ffffff;
+	font-weight : 300;
+}
+
+.full-news p
+{
+	color       : #ffffff;
+	font-weight : 300;
+	margin      : 0;
+}
+
+.full-news p:last-of-type
+{
+	padding-bottom : 0;
+}
+
+.full-news h2
+{
+	margin-top  : 0;
+	padding-top : 0;
+}
+
+.news-buttons a:link, .news-buttons a:active, .news-buttons a:visited
+{
+	display            : block;
+	color              : #ffffff;
+	border             : 1px solid #ffffff;
+	border-radius      : 3px;
+	text-align         : center;
+	font-family        : acumin-pro-condensed, sans-serif;
+	font-style         : normal;
+	font-weight        : 400;
+	text-transform     : uppercase;
+	-webkit-transition : all 0.2s ease;
+	-moz-transition    : all 0.2s ease;
+	-o-transition      : all 0.2s ease;
+	transition         : all 0.2s ease;
+}
+
+.news-buttons a:hover
+{
+	color        : #e8c962;
+	border-color : #e8c962;
+}
+
+.news_gallery .item, .game_gallery .item
+{
+	position : relative;
+	cursor   : pointer;
+}
+
+.news_gallery .item span, .game_gallery .item span
+{
+	color     : #ffffff;
+	margin    : 0 auto;
+	display   : block;
+	position  : absolute;
+	top       : 50%;
+	left      : 50%;
+	transform : translate(-50%, -50%);
+	z-index   : 10;
+}
+
+.news_gallery .item .item-hover-marker, .game_gallery .item .item-hover-marker
+{
+	width              : 100%;
+	height             : 100%;
+	background         : rgba(0, 0, 0, 0.3);
+	position           : absolute;
+	left               : 0;
+	top                : 0;
+	-webkit-transition : all 0.4s ease;
+	-moz-transition    : all 0.4s ease;
+	-o-transition      : all 0.4s ease;
+	transition         : all 0.4s ease;
+}
+
+.news_gallery .item:hover .item-hover-marker, .game_gallery .item:hover .item-hover-marker
+{
+	background : rgba(0, 0, 0, 0);
+}
+
+/* GAMES ************************************************************* */
+#games-filter
+{
+	background : #232321;
+}
+
+.game-box
+{
+	position : relative;
+	width    : 20%; /* desired width */
+	cursor   : pointer;
+	display  : block;
+}
+
+.game-box:before
+{
+	content     : "";
+	display     : block;
+	padding-top : 100%; /* initial ratio of 1:1*/
+}
+
+.game-box-content
+{
+	position           : absolute;
+	top                : 50%;
+	left               : 50%;
+	transform          : translate(-50%, -50%);
+	width              : 80%;
+	-webkit-transition : all 0.4s ease;
+	-moz-transition    : all 0.4s ease;
+	-o-transition      : all 0.4s ease;
+	transition         : all 0.4s ease;
+}
+
+.game-box:hover .game-box-content
+{
+	top : 47% !important;
+}
+
+.game-box-overlay
+{
+	width                   : 100%;
+	height                  : 100%;
+	background              : transparent url("../img/game-overlay.png") no-repeat center center;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+	position                : absolute;
+	left                    : 0;
+	top                     : 0;
+	-webkit-transition      : all 0.4s ease;
+	-moz-transition         : all 0.4s ease;
+	-o-transition           : all 0.4s ease;
+	transition              : all 0.4s ease;
+	z-index                 : 10;
+}
+
+.game-box:hover .game-box-overlay
+{
+	opacity : 0;
+}
+
+.game-box-icons
+{
+	width    : 100%;
+	height   : 100%;
+	position : absolute;
+	left     : 0;
+	top      : 0;
+	z-index  : 100;
+}
+
+.game-box-icon
+{
+	float : right;
+}
+
+.game-box-icon img
+{
+	width : 100%;
+}
+
+.game-box h2
+{
+	-webkit-transition : color 0.4s ease;
+	-moz-transition    : color 0.4s ease;
+	-o-transition      : color 0.4s ease;
+	transition         : color 0.4s ease;
+	position           : relative;
+	z-index            : 100;
+	text-align         : center;
+	display            : inline-block;
+	width              : 100%;
+}
+
+.game-box h2 span, .game-box h3 span
+{
+	background : #1d1d1b;
+	display    : inline-block;
+}
+
+.game-box h3
+{
+	-webkit-transition : color 0.4s ease;
+	-moz-transition    : color 0.4s ease;
+	-o-transition      : color 0.4s ease;
+	transition         : color 0.4s ease;
+	text-align         : center;
+	z-index            : 100;
+	position           : relative;
+	width              : 100%;
+	display            : inline-block;
+	margin             : 0 auto;
+}
+
+.game-box:hover h2, .game-box:hover h3
+{
+	color : #e8c962;
+}
+
+#around-game-filter-buttons
+{
+	text-align : center;
+}
+
+.game-filter-button
+{
+	display        : inline-block;
+	text-transform : uppercase;
+	font-family    : acumin-pro-condensed, sans-serif;
+	font-style     : normal;
+	font-weight    : 400 !important;
+	border         : 1px solid #60605f;
+	color          : #60605f;
+	border-radius  : 3px;
+	line-height    : 100%;
+}
+
+.game-filter-button.active, .game-filter-button:hover
+{
+	color              : #ffffff;
+	border-color       : #ffffff;
+	cursor             : pointer;
+	-webkit-transition : all 0.2s ease;
+	-moz-transition    : all 0.2s ease;
+	-o-transition      : all 0.2s ease;
+	transition         : all 0.2s ease;
+}
+
+.more-game-button
+{
+	margin-bottom : 30px !important;
+}
+
+.more-game-button a:link
+{
+	width  : 100%;
+	margin : 0 auto;
+}
+
+.hidden-game-box
+{
+	opacity  : 0;
+	height   : 0;
+	overflow : hidden !important;
+}
+
+/* ABOUT US ********************************************************** */
+#aboutus
+{
+	background : #ffffff;
+	text-align : center;
+	position   : relative;
+	color      : #1d1d1b;
+}
+
+#aboutus .section-h1
+{
+	margin-bottom : 0 !important;
+}
+
+#aboutus .section-h1, #aboutus .section-h2
+{
+	color : #1d1d1b;
+}
+
+#team
+{
+	background : #f0f0f0;
+	position   : relative;
+}
+
+#team-bg
+{
+	width                   : 100%;
+	height                  : 100%;
+	position                : absolute;
+	left                    : 0;
+	top                     : 0;
+	z-index                 : 1;
+	background              : #f0f0f0 url("../img/team-bg.jpg") no-repeat bottom center;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+#around-team-container
+{
+	width    : 80%;
+	margin   : 0 auto 0 auto;
+	position : relative;
+	z-index  : 10;
+}
+
+.team-member-box
+{
+	background : #ffffff;
+	position   : relative;
+	width      : 100%; /* desired width */
+}
+
+.team-member-box:before
+{
+	content     : "";
+	display     : block;
+	padding-top : 100%; /* initial ratio of 1:1*/
+}
+
+.team-member-content
+{
+	position  : absolute;
+	top       : 50%;
+	left      : 50%;
+	transform : translate(-50%, -50%);
+	width     : 100%;
+}
+
+.team-member-img img
+{
+	width : 100%;
+}
+
+.team-member-img
+{
+	margin : 0 auto;
+}
+
+.team-member-box h3
+{
+	text-transform : uppercase;
+	margin         : 0;
+	font-weight    : 600;
+	line-height    : 60%;
+}
+
+.team-member-box span
+{
+	font-weight    : 300;
+	padding        : 0;
+	margin         : 0;
+	text-transform : uppercase;
+	line-height    : 100%;
+	font-size      : 60%;
+}
+
+.team-member-desc
+{
+	position           : absolute;
+	left               : 0;
+	top                : 0;
+	width              : 100%;
+	height             : 100%;
+	z-index            : 100;
+	background         : #1d1d1b;
+	opacity            : 0;
+	-webkit-transition : opacity 0.2s ease;
+	-moz-transition    : opacity 0.2s ease;
+	-o-transition      : opacity 0.2s ease;
+	transition         : opacity 0.2s ease;
+}
+
+.team-member-desc div
+{
+	position    : absolute;
+	top         : 50%;
+	left        : 50%;
+	transform   : translate(-50%, -50%);
+	width       : 90%;
+	color       : #ffffff;
+	font-weight : 300;
+}
+
+/* SOCIAL ************************************************************ */
+#social
+{
+	position : relative;
+}
+
+#social-content
+{
+	position : relative;
+	z-index  : 10;
+}
+
+#yt-video
+{
+	width : 100%;
+}
+
+#social-bg
+{
+	width                   : 100%;
+	height                  : 100%;
+	position                : absolute;
+	left                    : 0;
+	top                     : 0;
+	z-index                 : 1;
+	background              : #1d1d1b url("../img/social-bg.jpg") no-repeat bottom center;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+#social-twitch
+{
+	background : #7289da;
+}
+
+#social-twitch .social-sidebox-img-box
+{
+	margin : 0 auto;
+}
+
+#social-mixer .social-sidebox-img-box
+{
+	margin : 0 auto;
+}
+
+#social-mixer
+{
+	background : #33ccfe;
+}
+
+.social-sidebox-img-box img
+{
+	width : 100%;
+}
+
+.social-sidebox
+{
+	width   : 100%;
+	display : block;
+}
+
+.social-icon
+{
+	display : block;
+}
+
+/* CONTACT ************************************************************ */
+#contact
+{
+	position   : relative;
+	text-align : center;
+}
+
+#contact-content
+{
+	position : relative;
+	z-index  : 10;
+}
+
+#contact .section-h2
+{
+	padding : 0;
+	margin  : 0;
+}
+
+#contact-bg
+{
+	width                   : 100%;
+	height                  : 100%;
+	position                : absolute;
+	left                    : 0;
+	top                     : 0;
+	z-index                 : 1;
+	background              : #272727 url("../img/contact-bg.jpg") no-repeat bottom center;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+#contact a:link
+{
+	text-align     : center;
+	text-transform : uppercase;
+	font-weight    : 300;
+}
+
+/* FOOTER ************************************************************ */
+footer
+{
+	background     : #313131;
+	text-align     : center;
+	color          : #7f7f7f;
+	text-transform : uppercase;
+	font-weight    : 300;
+}
+
+footer a:link, footer a:visited, footer a:active
+{
+	color : #7f7f7f;
+}
+
+/* GAME DETAILS */
+#game-details ul, #game-details ol, #news ul, #news ol
+{
+	margin     : 0;
+	padding    : 0 0 30px 30px;
+	list-style : disc;
+}
+
+#game-details li, #news li
+{
+	margin      : 0;
+	padding     : 0 0 0 0;
+	font-weight : 300 !important;
+}
+
+#game-details li:before, #news li:before
+{
+
+}
+
+#mainheader.gameheader
+{
+	margin-bottom : 0 !important;
+}
+
+#game-details
+{
+	position : relative;
+}
+
+#game-details-container
+{
+	position : relative;
+	z-index  : 10;
+}
+
+#game-bg
+{
+	width    : 100%;
+	height   : 100%;
+	position : absolute;
+	left     : 0;
+	top      : 0;
+	z-index  : 1;
+}
+
+#gameheader-logo
+{
+	margin   : 0 auto;
+	position : relative;
+}
+
+#gameheader-logo img
+{
+	width : 100%;
+}
+
+#game-details
+{
+	padding-bottom : 100px;
+}
+
+#game-details h1
+{
+	padding-bottom : 0;
+	text-align     : left;
+}
+
+#game-details h2, #game-details h3, .full-news h3
+{
+	text-transform : uppercase;
+	color          : #ffffff;
+	margin         : 0;
+	font-size      : 20px;
+	padding-bottom : 5px;
+}
+
+#game-details h4, .full-news h4
+{
+	text-transform : uppercase;
+	color          : #e8c962;
+	margin         : 0;
+	font-size      : 18px;
+	padding-bottom : 5px;
+}
+
+#game-details p
+{
+	font-weight : 300;
+}
+
+.game-trailer
+{
+	width : 100%;
+}
+
+#sys-req-box
+{
+	border        : 1px solid #a7a49b;
+	color         : #d5d5d5;
+	border-radius : 3px;
+}
+
+#sys-req-box h3
+{
+	color   : #ffffff;
+	margin  : 0;
+	padding : 0;
+}
+
+#sys-req-box p
+{
+	margin : 0;
+}
+
+#sys-req-box p:last-of-type
+{
+	padding : 0;
+}
+
+.sideinfo-box
+{
+	font-weight   : 300;
+	background    : #181817;
+	border-radius : 4px;
+	display       : block;
+}
+
+.sideinfo-box-container:last-of-type
+{
+	margin-bottom : 0;
+}
+
+.sideinfo-box-icon, .sideinfo-box-txt
+{
+	float : left;
+}
+
+.sideinfo-box-txt
+{
+	position : relative;
+}
+
+.sideinfo-box-icon img
+{
+	width : 100%;
+}
+
+/* NEWS ARCHIVE ****************************************************** */
+#news-header
+{
+	background : #232321;
+}
+
+.news-hr
+{
+	border-color : rgba(255, 255, 255, 0.2);
+}
+
+.news-hr:last-of-type
+{
+	display : none;
+}
+
+.imprint
+{
+	font-weight   : 300;
+	margin-bottom : 50px;
+}
+
+.around-one-news
+{
+	height   : 400px;
+	overflow : hidden;
+	position : relative;
+}
+
+.news-overlay
+{
+	position   : absolute;
+	bottom     : 0;
+	left       : 0;
+	height     : 154px;
+	width      : 100%;
+	background : url(../img/news-overlay.png) repeat-x center bottom;
+	z-index    : 100;
+}
+
+.news-overlay .around-more
+{
+	display    : block;
+	position   : absolute;
+	bottom     : 0;
+	width      : 100%;
+	text-align : center;
+}
+
+.news-overlay .around-more span
+{
+	display            : inline-block;
+	border             : 1px solid #ffffff;
+	border-radius      : 3px;
+	text-align         : center;
+	font-family        : acumin-pro-condensed, sans-serif;
+	font-style         : normal;
+	font-weight        : 400;
+	text-transform     : uppercase;
+	padding            : 8px 35px 10px 35px;
+	background         : rgba(29, 29, 27, 0.7);
+	position           : relative;
+	-webkit-transition : all 0.2s ease;
+	-moz-transition    : all 0.2s ease;
+	-o-transition      : all 0.2s ease;
+	transition         : all 0.2s ease;
+	cursor             : pointer;
+	z-index            : 106;
+}
+
+.news-overlay .around-more span:hover
+{
+	color        : #e8c962;
+	border-color : #e8c962;
+}
