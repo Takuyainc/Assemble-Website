@@ -14,6 +14,7 @@ $(document).ready(function(){
   $("#button-nav").click(function () {
       $('body').toggleClass('overflow-add');
       $("#fast-search-wrapper").slideToggle();
+      $(".button-nav-top").css({transform: 'translateY(300px) rotateZ(120deg)'})
 
   });
 
